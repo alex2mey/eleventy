@@ -1,0 +1,9 @@
+---
+layout: base.njk 
+---
+
+{{ content | safe }}
+
+<footer>
+    <p> Published on: {{ reference.date.toDateString() }}</p>
+</footer>
